@@ -1,5 +1,5 @@
 git pipeline{
-    agent {
+    agent any{
         label 'Linux'
     }
     tools {
